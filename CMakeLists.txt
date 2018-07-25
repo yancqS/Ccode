@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.10)
+project(CppCode)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(demo Code/demo.c)
+add_executable(partI Code/PartI.c)
+add_executable(partII Code/partII.c)
+add_executable(partIII Code/partIII.c)
+add_executable(partIV Code/partIV.c)
+add_executable(partV Code/partV.c)
+add_executable(partVI Code/partVI.c Code/myStr.c Code/myStr.h)
+add_executable(partVII Code/partVII.c)
+add_executable(partVIII Code/partVIII.c)
+add_executable(partIX Code/partIX.c)
+add_executable(List Code/List.c)
+add_executable(SuShu Code/SuShu.c)
+add_executable(voteCount Code/voteCount.c)

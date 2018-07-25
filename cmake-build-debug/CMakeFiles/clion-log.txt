@@ -1,0 +1,4 @@
+D:\MinGW\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/MinGW/bin/mingw32-make.exe -G "CodeBlocks - MinGW Makefiles" D:\CppCode
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/CppCode/cmake-build-debug

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CppCode/Code/myStr.c
+myStr.h
+D:/CppCode/Code/myStr.h
+
+D:/CppCode/Code/myStr.h
+
+D:/CppCode/Code/partVI.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+myStr.h
+D:/CppCode/Code/myStr.h
+

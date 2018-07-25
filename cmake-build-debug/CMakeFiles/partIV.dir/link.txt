@@ -1,0 +1,3 @@
+D:\MinGW\cmake\bin\cmake.exe -E remove -f CMakeFiles\partIV.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\partIV.dir/objects.a @CMakeFiles\partIV.dir\objects1.rsp
+D:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\partIV.dir/objects.a -Wl,--no-whole-archive  -o partIV.exe -Wl,--out-implib,libpartIV.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\partIV.dir\linklibs.rsp
