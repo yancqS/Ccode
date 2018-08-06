@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/List.dir/Code/List.c.obj"
+  "CMakeFiles/List.dir/Code/ListFun.c.obj"
   "List.pdb"
   "List.exe"
   "List.exe.manifest"

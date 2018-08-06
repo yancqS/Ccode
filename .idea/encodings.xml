@@ -10,6 +10,21 @@
     <file url="file://$PROJECT_DIR$/Code/partVI.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Code/partVII.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Code/partVIII.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第3章线性表/01线性表顺序存储_List.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第3章线性表/02线性表链式存储_LinkList.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第3章线性表/03静态链表_StaticLinkList.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第4章栈与队列/01顺序栈_Stack.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第4章栈与队列/02两栈共享空间_DoubleStack.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第4章栈与队列/03链栈_LinkStack.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第4章栈与队列/04斐波那契函数_Fibonacci.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第4章栈与队列/05顺序队列_Queue.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第4章栈与队列/06链队列_LinkQueue.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第5章串/01串_String.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第5章串/02模式匹配_KMP.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第6章树/01二叉树顺序结构实现_BiTreeArray.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第6章树/02二叉树链式结构实现_BiTreeLink.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructure/第6章树/03线索二叉树_ThreadBinaryTree.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/fileCode/stu.data" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

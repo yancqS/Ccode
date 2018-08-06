@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 //÷∏’Î
 int main() {
     /*
@@ -139,9 +140,9 @@ int main() {
     printf("a + 1 = %p *(a + 1) + 1 = %p\n", a + 1, *(a + 1) + 1);
     printf("a[1]  = %p &a[1] + 1    = %p\n", a[1], &a[1] + 1);
 
-    for(int m = 0;m<3;m++){
-        for(int n = 0; n<4 ;n++){
-            printf("%d\t",*(*(a+m)+n));
+    for (int m = 0; m < 3; m++) {
+        for (int n = 0; n < 4; n++) {
+            printf("%d\t", *(*(a + m) + n));
         }
         putchar(10);
     }

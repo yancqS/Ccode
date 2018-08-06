@@ -1,5 +1,5 @@
 #include "myStr.h"//自包含头文件
-
+//partVI
 int myStrlen(char *src) {
     int len = 0;
     while (*src++ != '\0') {

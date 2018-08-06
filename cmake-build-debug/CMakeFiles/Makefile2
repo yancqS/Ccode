@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = D:\CppCode\cmake-build-debug
 CMakeFiles/partV.dir/all:
 	$(MAKE) -f CMakeFiles\partV.dir\build.make CMakeFiles/partV.dir/depend
 	$(MAKE) -f CMakeFiles\partV.dir\build.make CMakeFiles/partV.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target partV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target partV"
 .PHONY : CMakeFiles/partV.dir/all
 
 # Include target in all.
@@ -102,7 +102,7 @@ clean: CMakeFiles/partV.dir/clean
 CMakeFiles/demo.dir/all:
 	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/depend
 	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target demo"
 .PHONY : CMakeFiles/demo.dir/all
 
 # Include target in all.
@@ -139,7 +139,7 @@ clean: CMakeFiles/demo.dir/clean
 CMakeFiles/partVIII.dir/all:
 	$(MAKE) -f CMakeFiles\partVIII.dir\build.make CMakeFiles/partVIII.dir/depend
 	$(MAKE) -f CMakeFiles\partVIII.dir\build.make CMakeFiles/partVIII.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target partVIII"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target partVIII"
 .PHONY : CMakeFiles/partVIII.dir/all
 
 # Include target in all.
@@ -176,7 +176,7 @@ clean: CMakeFiles/partVIII.dir/clean
 CMakeFiles/partI.dir/all:
 	$(MAKE) -f CMakeFiles\partI.dir\build.make CMakeFiles/partI.dir/depend
 	$(MAKE) -f CMakeFiles\partI.dir\build.make CMakeFiles/partI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target partI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target partI"
 .PHONY : CMakeFiles/partI.dir/all
 
 # Include target in all.
@@ -213,7 +213,7 @@ clean: CMakeFiles/partI.dir/clean
 CMakeFiles/partII.dir/all:
 	$(MAKE) -f CMakeFiles\partII.dir\build.make CMakeFiles/partII.dir/depend
 	$(MAKE) -f CMakeFiles\partII.dir\build.make CMakeFiles/partII.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target partII"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target partII"
 .PHONY : CMakeFiles/partII.dir/all
 
 # Include target in all.
@@ -250,7 +250,7 @@ clean: CMakeFiles/partII.dir/clean
 CMakeFiles/partIII.dir/all:
 	$(MAKE) -f CMakeFiles\partIII.dir\build.make CMakeFiles/partIII.dir/depend
 	$(MAKE) -f CMakeFiles\partIII.dir\build.make CMakeFiles/partIII.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target partIII"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target partIII"
 .PHONY : CMakeFiles/partIII.dir/all
 
 # Include target in all.
@@ -281,13 +281,50 @@ clean: CMakeFiles/partIII.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/file.dir
+
+# All Build rule for target.
+CMakeFiles/file.dir/all:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/depend
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target file"
+.PHONY : CMakeFiles/file.dir/all
+
+# Include target in all.
+all: CMakeFiles/file.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/file.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/file.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/file.dir/rule
+
+# Convenience name for target.
+file: CMakeFiles/file.dir/rule
+
+.PHONY : file
+
+# clean rule for target.
+CMakeFiles/file.dir/clean:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/clean
+.PHONY : CMakeFiles/file.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/file.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/partIV.dir
 
 # All Build rule for target.
 CMakeFiles/partIV.dir/all:
 	$(MAKE) -f CMakeFiles\partIV.dir\build.make CMakeFiles/partIV.dir/depend
 	$(MAKE) -f CMakeFiles\partIV.dir\build.make CMakeFiles/partIV.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target partIV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target partIV"
 .PHONY : CMakeFiles/partIV.dir/all
 
 # Include target in all.
@@ -324,7 +361,7 @@ clean: CMakeFiles/partIV.dir/clean
 CMakeFiles/partVI.dir/all:
 	$(MAKE) -f CMakeFiles\partVI.dir\build.make CMakeFiles/partVI.dir/depend
 	$(MAKE) -f CMakeFiles\partVI.dir\build.make CMakeFiles/partVI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=19,20,21 "Built target partVI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=32,33,34 "Built target partVI"
 .PHONY : CMakeFiles/partVI.dir/all
 
 # Include target in all.
@@ -361,7 +398,7 @@ clean: CMakeFiles/partVI.dir/clean
 CMakeFiles/partVII.dir/all:
 	$(MAKE) -f CMakeFiles\partVII.dir\build.make CMakeFiles/partVII.dir/depend
 	$(MAKE) -f CMakeFiles\partVII.dir\build.make CMakeFiles/partVII.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target partVII"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target partVII"
 .PHONY : CMakeFiles/partVII.dir/all
 
 # Include target in all.
@@ -398,7 +435,7 @@ clean: CMakeFiles/partVII.dir/clean
 CMakeFiles/partIX.dir/all:
 	$(MAKE) -f CMakeFiles\partIX.dir\build.make CMakeFiles/partIX.dir/depend
 	$(MAKE) -f CMakeFiles\partIX.dir\build.make CMakeFiles/partIX.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target partIX"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target partIX"
 .PHONY : CMakeFiles/partIX.dir/all
 
 # Include target in all.
@@ -435,7 +472,7 @@ clean: CMakeFiles/partIX.dir/clean
 CMakeFiles/List.dir/all:
 	$(MAKE) -f CMakeFiles\List.dir\build.make CMakeFiles/List.dir/depend
 	$(MAKE) -f CMakeFiles\List.dir\build.make CMakeFiles/List.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target List"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target List"
 .PHONY : CMakeFiles/List.dir/all
 
 # Include target in all.
@@ -445,7 +482,7 @@ all: CMakeFiles/List.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/List.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/List.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/List.dir/rule
@@ -472,7 +509,7 @@ clean: CMakeFiles/List.dir/clean
 CMakeFiles/SuShu.dir/all:
 	$(MAKE) -f CMakeFiles\SuShu.dir\build.make CMakeFiles/SuShu.dir/depend
 	$(MAKE) -f CMakeFiles\SuShu.dir\build.make CMakeFiles/SuShu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target SuShu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target SuShu"
 .PHONY : CMakeFiles/SuShu.dir/all
 
 # Include target in all.
@@ -509,7 +546,7 @@ clean: CMakeFiles/SuShu.dir/clean
 CMakeFiles/voteCount.dir/all:
 	$(MAKE) -f CMakeFiles\voteCount.dir\build.make CMakeFiles/voteCount.dir/depend
 	$(MAKE) -f CMakeFiles\voteCount.dir\build.make CMakeFiles/voteCount.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target voteCount"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target voteCount"
 .PHONY : CMakeFiles/voteCount.dir/all
 
 # Include target in all.
@@ -536,6 +573,191 @@ CMakeFiles/voteCount.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/voteCount.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fileMul.dir
+
+# All Build rule for target.
+CMakeFiles/fileMul.dir/all:
+	$(MAKE) -f CMakeFiles\fileMul.dir\build.make CMakeFiles/fileMul.dir/depend
+	$(MAKE) -f CMakeFiles\fileMul.dir\build.make CMakeFiles/fileMul.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target fileMul"
+.PHONY : CMakeFiles/fileMul.dir/all
+
+# Include target in all.
+all: CMakeFiles/fileMul.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fileMul.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/fileMul.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/fileMul.dir/rule
+
+# Convenience name for target.
+fileMul: CMakeFiles/fileMul.dir/rule
+
+.PHONY : fileMul
+
+# clean rule for target.
+CMakeFiles/fileMul.dir/clean:
+	$(MAKE) -f CMakeFiles\fileMul.dir\build.make CMakeFiles/fileMul.dir/clean
+.PHONY : CMakeFiles/fileMul.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/fileMul.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/filter.dir
+
+# All Build rule for target.
+CMakeFiles/filter.dir/all:
+	$(MAKE) -f CMakeFiles\filter.dir\build.make CMakeFiles/filter.dir/depend
+	$(MAKE) -f CMakeFiles\filter.dir\build.make CMakeFiles/filter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target filter"
+.PHONY : CMakeFiles/filter.dir/all
+
+# Include target in all.
+all: CMakeFiles/filter.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/filter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/filter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/filter.dir/rule
+
+# Convenience name for target.
+filter: CMakeFiles/filter.dir/rule
+
+.PHONY : filter
+
+# clean rule for target.
+CMakeFiles/filter.dir/clean:
+	$(MAKE) -f CMakeFiles\filter.dir\build.make CMakeFiles/filter.dir/clean
+.PHONY : CMakeFiles/filter.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/filter.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AEadd.dir
+
+# All Build rule for target.
+CMakeFiles/AEadd.dir/all:
+	$(MAKE) -f CMakeFiles\AEadd.dir\build.make CMakeFiles/AEadd.dir/depend
+	$(MAKE) -f CMakeFiles\AEadd.dir\build.make CMakeFiles/AEadd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target AEadd"
+.PHONY : CMakeFiles/AEadd.dir/all
+
+# Include target in all.
+all: CMakeFiles/AEadd.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AEadd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/AEadd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/AEadd.dir/rule
+
+# Convenience name for target.
+AEadd: CMakeFiles/AEadd.dir/rule
+
+.PHONY : AEadd
+
+# clean rule for target.
+CMakeFiles/AEadd.dir/clean:
+	$(MAKE) -f CMakeFiles\AEadd.dir\build.make CMakeFiles/AEadd.dir/clean
+.PHONY : CMakeFiles/AEadd.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/AEadd.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fileBin.dir
+
+# All Build rule for target.
+CMakeFiles/fileBin.dir/all:
+	$(MAKE) -f CMakeFiles\fileBin.dir\build.make CMakeFiles/fileBin.dir/depend
+	$(MAKE) -f CMakeFiles\fileBin.dir\build.make CMakeFiles/fileBin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target fileBin"
+.PHONY : CMakeFiles/fileBin.dir/all
+
+# Include target in all.
+all: CMakeFiles/fileBin.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fileBin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/fileBin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/fileBin.dir/rule
+
+# Convenience name for target.
+fileBin: CMakeFiles/fileBin.dir/rule
+
+.PHONY : fileBin
+
+# clean rule for target.
+CMakeFiles/fileBin.dir/clean:
+	$(MAKE) -f CMakeFiles\fileBin.dir\build.make CMakeFiles/fileBin.dir/clean
+.PHONY : CMakeFiles/fileBin.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/fileBin.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fileList.dir
+
+# All Build rule for target.
+CMakeFiles/fileList.dir/all:
+	$(MAKE) -f CMakeFiles\fileList.dir\build.make CMakeFiles/fileList.dir/depend
+	$(MAKE) -f CMakeFiles\fileList.dir\build.make CMakeFiles/fileList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppCode\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target fileList"
+.PHONY : CMakeFiles/fileList.dir/all
+
+# Include target in all.
+all: CMakeFiles/fileList.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fileList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/fileList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppCode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/fileList.dir/rule
+
+# Convenience name for target.
+fileList: CMakeFiles/fileList.dir/rule
+
+.PHONY : fileList
+
+# clean rule for target.
+CMakeFiles/fileList.dir/clean:
+	$(MAKE) -f CMakeFiles\fileList.dir\build.make CMakeFiles/fileList.dir/clean
+.PHONY : CMakeFiles/fileList.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/fileList.dir/clean
 
 .PHONY : clean
 

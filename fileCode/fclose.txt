@@ -1,0 +1,1 @@
+fclose can fresh flush

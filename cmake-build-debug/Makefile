@@ -188,6 +188,19 @@ partIII/fast:
 .PHONY : partIII/fast
 
 #=============================================================================
+# Target rules for targets named file
+
+# Build rule for target.
+file: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file
+.PHONY : file
+
+# fast build rule for target.
+file/fast:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/build
+.PHONY : file/fast
+
+#=============================================================================
 # Target rules for targets named partIV
 
 # Build rule for target.
@@ -278,6 +291,71 @@ voteCount/fast:
 	$(MAKE) -f CMakeFiles\voteCount.dir\build.make CMakeFiles/voteCount.dir/build
 .PHONY : voteCount/fast
 
+#=============================================================================
+# Target rules for targets named fileMul
+
+# Build rule for target.
+fileMul: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 fileMul
+.PHONY : fileMul
+
+# fast build rule for target.
+fileMul/fast:
+	$(MAKE) -f CMakeFiles\fileMul.dir\build.make CMakeFiles/fileMul.dir/build
+.PHONY : fileMul/fast
+
+#=============================================================================
+# Target rules for targets named filter
+
+# Build rule for target.
+filter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 filter
+.PHONY : filter
+
+# fast build rule for target.
+filter/fast:
+	$(MAKE) -f CMakeFiles\filter.dir\build.make CMakeFiles/filter.dir/build
+.PHONY : filter/fast
+
+#=============================================================================
+# Target rules for targets named AEadd
+
+# Build rule for target.
+AEadd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 AEadd
+.PHONY : AEadd
+
+# fast build rule for target.
+AEadd/fast:
+	$(MAKE) -f CMakeFiles\AEadd.dir\build.make CMakeFiles/AEadd.dir/build
+.PHONY : AEadd/fast
+
+#=============================================================================
+# Target rules for targets named fileBin
+
+# Build rule for target.
+fileBin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 fileBin
+.PHONY : fileBin
+
+# fast build rule for target.
+fileBin/fast:
+	$(MAKE) -f CMakeFiles\fileBin.dir\build.make CMakeFiles/fileBin.dir/build
+.PHONY : fileBin/fast
+
+#=============================================================================
+# Target rules for targets named fileList
+
+# Build rule for target.
+fileList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 fileList
+.PHONY : fileList
+
+# fast build rule for target.
+fileList/fast:
+	$(MAKE) -f CMakeFiles\fileList.dir\build.make CMakeFiles/fileList.dir/build
+.PHONY : fileList/fast
+
 Code/List.obj: Code/List.c.obj
 
 .PHONY : Code/List.obj
@@ -304,6 +382,33 @@ Code/List.s: Code/List.c.s
 Code/List.c.s:
 	$(MAKE) -f CMakeFiles\List.dir\build.make CMakeFiles/List.dir/Code/List.c.s
 .PHONY : Code/List.c.s
+
+Code/ListFun.obj: Code/ListFun.c.obj
+
+.PHONY : Code/ListFun.obj
+
+# target to build an object file
+Code/ListFun.c.obj:
+	$(MAKE) -f CMakeFiles\List.dir\build.make CMakeFiles/List.dir/Code/ListFun.c.obj
+.PHONY : Code/ListFun.c.obj
+
+Code/ListFun.i: Code/ListFun.c.i
+
+.PHONY : Code/ListFun.i
+
+# target to preprocess a source file
+Code/ListFun.c.i:
+	$(MAKE) -f CMakeFiles\List.dir\build.make CMakeFiles/List.dir/Code/ListFun.c.i
+.PHONY : Code/ListFun.c.i
+
+Code/ListFun.s: Code/ListFun.c.s
+
+.PHONY : Code/ListFun.s
+
+# target to generate assembly for a file
+Code/ListFun.c.s:
+	$(MAKE) -f CMakeFiles\List.dir\build.make CMakeFiles/List.dir/Code/ListFun.c.s
+.PHONY : Code/ListFun.c.s
 
 Code/PartI.obj: Code/PartI.c.obj
 
@@ -656,6 +761,168 @@ Code/voteCount.c.s:
 	$(MAKE) -f CMakeFiles\voteCount.dir\build.make CMakeFiles/voteCount.dir/Code/voteCount.c.s
 .PHONY : Code/voteCount.c.s
 
+fileCode/AEadd.obj: fileCode/AEadd.c.obj
+
+.PHONY : fileCode/AEadd.obj
+
+# target to build an object file
+fileCode/AEadd.c.obj:
+	$(MAKE) -f CMakeFiles\AEadd.dir\build.make CMakeFiles/AEadd.dir/fileCode/AEadd.c.obj
+.PHONY : fileCode/AEadd.c.obj
+
+fileCode/AEadd.i: fileCode/AEadd.c.i
+
+.PHONY : fileCode/AEadd.i
+
+# target to preprocess a source file
+fileCode/AEadd.c.i:
+	$(MAKE) -f CMakeFiles\AEadd.dir\build.make CMakeFiles/AEadd.dir/fileCode/AEadd.c.i
+.PHONY : fileCode/AEadd.c.i
+
+fileCode/AEadd.s: fileCode/AEadd.c.s
+
+.PHONY : fileCode/AEadd.s
+
+# target to generate assembly for a file
+fileCode/AEadd.c.s:
+	$(MAKE) -f CMakeFiles\AEadd.dir\build.make CMakeFiles/AEadd.dir/fileCode/AEadd.c.s
+.PHONY : fileCode/AEadd.c.s
+
+fileCode/file.obj: fileCode/file.c.obj
+
+.PHONY : fileCode/file.obj
+
+# target to build an object file
+fileCode/file.c.obj:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/fileCode/file.c.obj
+.PHONY : fileCode/file.c.obj
+
+fileCode/file.i: fileCode/file.c.i
+
+.PHONY : fileCode/file.i
+
+# target to preprocess a source file
+fileCode/file.c.i:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/fileCode/file.c.i
+.PHONY : fileCode/file.c.i
+
+fileCode/file.s: fileCode/file.c.s
+
+.PHONY : fileCode/file.s
+
+# target to generate assembly for a file
+fileCode/file.c.s:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/fileCode/file.c.s
+.PHONY : fileCode/file.c.s
+
+fileCode/fileBin.obj: fileCode/fileBin.c.obj
+
+.PHONY : fileCode/fileBin.obj
+
+# target to build an object file
+fileCode/fileBin.c.obj:
+	$(MAKE) -f CMakeFiles\fileBin.dir\build.make CMakeFiles/fileBin.dir/fileCode/fileBin.c.obj
+.PHONY : fileCode/fileBin.c.obj
+
+fileCode/fileBin.i: fileCode/fileBin.c.i
+
+.PHONY : fileCode/fileBin.i
+
+# target to preprocess a source file
+fileCode/fileBin.c.i:
+	$(MAKE) -f CMakeFiles\fileBin.dir\build.make CMakeFiles/fileBin.dir/fileCode/fileBin.c.i
+.PHONY : fileCode/fileBin.c.i
+
+fileCode/fileBin.s: fileCode/fileBin.c.s
+
+.PHONY : fileCode/fileBin.s
+
+# target to generate assembly for a file
+fileCode/fileBin.c.s:
+	$(MAKE) -f CMakeFiles\fileBin.dir\build.make CMakeFiles/fileBin.dir/fileCode/fileBin.c.s
+.PHONY : fileCode/fileBin.c.s
+
+fileCode/fileList.obj: fileCode/fileList.c.obj
+
+.PHONY : fileCode/fileList.obj
+
+# target to build an object file
+fileCode/fileList.c.obj:
+	$(MAKE) -f CMakeFiles\fileList.dir\build.make CMakeFiles/fileList.dir/fileCode/fileList.c.obj
+.PHONY : fileCode/fileList.c.obj
+
+fileCode/fileList.i: fileCode/fileList.c.i
+
+.PHONY : fileCode/fileList.i
+
+# target to preprocess a source file
+fileCode/fileList.c.i:
+	$(MAKE) -f CMakeFiles\fileList.dir\build.make CMakeFiles/fileList.dir/fileCode/fileList.c.i
+.PHONY : fileCode/fileList.c.i
+
+fileCode/fileList.s: fileCode/fileList.c.s
+
+.PHONY : fileCode/fileList.s
+
+# target to generate assembly for a file
+fileCode/fileList.c.s:
+	$(MAKE) -f CMakeFiles\fileList.dir\build.make CMakeFiles/fileList.dir/fileCode/fileList.c.s
+.PHONY : fileCode/fileList.c.s
+
+fileCode/fileMul.obj: fileCode/fileMul.c.obj
+
+.PHONY : fileCode/fileMul.obj
+
+# target to build an object file
+fileCode/fileMul.c.obj:
+	$(MAKE) -f CMakeFiles\fileMul.dir\build.make CMakeFiles/fileMul.dir/fileCode/fileMul.c.obj
+.PHONY : fileCode/fileMul.c.obj
+
+fileCode/fileMul.i: fileCode/fileMul.c.i
+
+.PHONY : fileCode/fileMul.i
+
+# target to preprocess a source file
+fileCode/fileMul.c.i:
+	$(MAKE) -f CMakeFiles\fileMul.dir\build.make CMakeFiles/fileMul.dir/fileCode/fileMul.c.i
+.PHONY : fileCode/fileMul.c.i
+
+fileCode/fileMul.s: fileCode/fileMul.c.s
+
+.PHONY : fileCode/fileMul.s
+
+# target to generate assembly for a file
+fileCode/fileMul.c.s:
+	$(MAKE) -f CMakeFiles\fileMul.dir\build.make CMakeFiles/fileMul.dir/fileCode/fileMul.c.s
+.PHONY : fileCode/fileMul.c.s
+
+fileCode/filter.obj: fileCode/filter.c.obj
+
+.PHONY : fileCode/filter.obj
+
+# target to build an object file
+fileCode/filter.c.obj:
+	$(MAKE) -f CMakeFiles\filter.dir\build.make CMakeFiles/filter.dir/fileCode/filter.c.obj
+.PHONY : fileCode/filter.c.obj
+
+fileCode/filter.i: fileCode/filter.c.i
+
+.PHONY : fileCode/filter.i
+
+# target to preprocess a source file
+fileCode/filter.c.i:
+	$(MAKE) -f CMakeFiles\filter.dir\build.make CMakeFiles/filter.dir/fileCode/filter.c.i
+.PHONY : fileCode/filter.c.i
+
+fileCode/filter.s: fileCode/filter.c.s
+
+.PHONY : fileCode/filter.s
+
+# target to generate assembly for a file
+fileCode/filter.c.s:
+	$(MAKE) -f CMakeFiles\filter.dir\build.make CMakeFiles/filter.dir/fileCode/filter.c.s
+.PHONY : fileCode/filter.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -668,6 +935,7 @@ help:
 	@echo ... partI
 	@echo ... partII
 	@echo ... partIII
+	@echo ... file
 	@echo ... partIV
 	@echo ... partVI
 	@echo ... partVII
@@ -675,11 +943,19 @@ help:
 	@echo ... List
 	@echo ... SuShu
 	@echo ... voteCount
+	@echo ... fileMul
+	@echo ... filter
+	@echo ... AEadd
+	@echo ... fileBin
+	@echo ... fileList
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Code/List.obj
 	@echo ... Code/List.i
 	@echo ... Code/List.s
+	@echo ... Code/ListFun.obj
+	@echo ... Code/ListFun.i
+	@echo ... Code/ListFun.s
 	@echo ... Code/PartI.obj
 	@echo ... Code/PartI.i
 	@echo ... Code/PartI.s
@@ -719,6 +995,24 @@ help:
 	@echo ... Code/voteCount.obj
 	@echo ... Code/voteCount.i
 	@echo ... Code/voteCount.s
+	@echo ... fileCode/AEadd.obj
+	@echo ... fileCode/AEadd.i
+	@echo ... fileCode/AEadd.s
+	@echo ... fileCode/file.obj
+	@echo ... fileCode/file.i
+	@echo ... fileCode/file.s
+	@echo ... fileCode/fileBin.obj
+	@echo ... fileCode/fileBin.i
+	@echo ... fileCode/fileBin.s
+	@echo ... fileCode/fileList.obj
+	@echo ... fileCode/fileList.i
+	@echo ... fileCode/fileList.s
+	@echo ... fileCode/fileMul.obj
+	@echo ... fileCode/fileMul.i
+	@echo ... fileCode/fileMul.s
+	@echo ... fileCode/filter.obj
+	@echo ... fileCode/filter.i
+	@echo ... fileCode/filter.s
 .PHONY : help
 
 
