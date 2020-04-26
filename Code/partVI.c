@@ -71,29 +71,29 @@ int main() {
     //字符串操作函数
 #if 0
     //原生操作之求字符串长度(不包含'\0')
-char name[100] = "yanchongqing";
-int count = 0;
-char * p = name;
-/*for(int i = 0; i<100; i++){
-    if(name[i] == '\0')
-        break;
-    count++;
-}*/
-while (*p++ != '\0'){
-    count++;
-}
-printf("count = %d\n", count);
-    //原生操作之拼接字符串
-char firstName[10] = "jim";
-char lastName[10] = "Green";
-char * f;
-int n = 0;
-for(f = firstName;*f != '\0';f++);
-for(char * l = lastName;*l != '\0';){
-    *f++ = *l++;
-    n++;
-}
-printf("fullName = %s, n = %d\n",firstName, n);
+    char name[100] = "yanchongqing";
+    int count = 0;
+    char * p = name;
+    /*for(int i = 0; i<100; i++){
+        if(name[i] == '\0')
+            break;
+        count++;
+    }*/
+    while (*p++ != '\0'){
+        count++;
+    }
+    printf("count = %d\n", count);
+        //原生操作之拼接字符串
+    char firstName[10] = "jim";
+    char lastName[10] = "Green";
+    char * f;
+    int n = 0;
+    for(f = firstName;*f != '\0';f++);
+    for(char * l = lastName;*l != '\0';){
+        *f++ = *l++;
+        n++;
+    }
+    printf("fullName = %s, n = %d\n",firstName, n);
 #endif
 #if 0
     //库函数strlen

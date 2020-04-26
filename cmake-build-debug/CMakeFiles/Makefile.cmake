@@ -60,6 +60,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/file.dir/DependInfo.cmake"
   "CMakeFiles/partIV.dir/DependInfo.cmake"
   "CMakeFiles/partVI.dir/DependInfo.cmake"
+  "CMakeFiles/bitOper.dir/DependInfo.cmake"
   "CMakeFiles/partVII.dir/DependInfo.cmake"
   "CMakeFiles/partIX.dir/DependInfo.cmake"
   "CMakeFiles/List.dir/DependInfo.cmake"
@@ -70,4 +71,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/AEadd.dir/DependInfo.cmake"
   "CMakeFiles/fileBin.dir/DependInfo.cmake"
   "CMakeFiles/fileList.dir/DependInfo.cmake"
+  "CMakeFiles/filePoffset.dir/DependInfo.cmake"
+  "CMakeFiles/fileSort.dir/DependInfo.cmake"
   )

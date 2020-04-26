@@ -227,6 +227,19 @@ partVI/fast:
 .PHONY : partVI/fast
 
 #=============================================================================
+# Target rules for targets named bitOper
+
+# Build rule for target.
+bitOper: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 bitOper
+.PHONY : bitOper
+
+# fast build rule for target.
+bitOper/fast:
+	$(MAKE) -f CMakeFiles\bitOper.dir\build.make CMakeFiles/bitOper.dir/build
+.PHONY : bitOper/fast
+
+#=============================================================================
 # Target rules for targets named partVII
 
 # Build rule for target.
@@ -356,6 +369,32 @@ fileList/fast:
 	$(MAKE) -f CMakeFiles\fileList.dir\build.make CMakeFiles/fileList.dir/build
 .PHONY : fileList/fast
 
+#=============================================================================
+# Target rules for targets named filePoffset
+
+# Build rule for target.
+filePoffset: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 filePoffset
+.PHONY : filePoffset
+
+# fast build rule for target.
+filePoffset/fast:
+	$(MAKE) -f CMakeFiles\filePoffset.dir\build.make CMakeFiles/filePoffset.dir/build
+.PHONY : filePoffset/fast
+
+#=============================================================================
+# Target rules for targets named fileSort
+
+# Build rule for target.
+fileSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 fileSort
+.PHONY : fileSort
+
+# fast build rule for target.
+fileSort/fast:
+	$(MAKE) -f CMakeFiles\fileSort.dir\build.make CMakeFiles/fileSort.dir/build
+.PHONY : fileSort/fast
+
 Code/List.obj: Code/List.c.obj
 
 .PHONY : Code/List.obj
@@ -463,6 +502,33 @@ Code/SuShu.s: Code/SuShu.c.s
 Code/SuShu.c.s:
 	$(MAKE) -f CMakeFiles\SuShu.dir\build.make CMakeFiles/SuShu.dir/Code/SuShu.c.s
 .PHONY : Code/SuShu.c.s
+
+Code/bitOper.obj: Code/bitOper.c.obj
+
+.PHONY : Code/bitOper.obj
+
+# target to build an object file
+Code/bitOper.c.obj:
+	$(MAKE) -f CMakeFiles\bitOper.dir\build.make CMakeFiles/bitOper.dir/Code/bitOper.c.obj
+.PHONY : Code/bitOper.c.obj
+
+Code/bitOper.i: Code/bitOper.c.i
+
+.PHONY : Code/bitOper.i
+
+# target to preprocess a source file
+Code/bitOper.c.i:
+	$(MAKE) -f CMakeFiles\bitOper.dir\build.make CMakeFiles/bitOper.dir/Code/bitOper.c.i
+.PHONY : Code/bitOper.c.i
+
+Code/bitOper.s: Code/bitOper.c.s
+
+.PHONY : Code/bitOper.s
+
+# target to generate assembly for a file
+Code/bitOper.c.s:
+	$(MAKE) -f CMakeFiles\bitOper.dir\build.make CMakeFiles/bitOper.dir/Code/bitOper.c.s
+.PHONY : Code/bitOper.c.s
 
 Code/demo.obj: Code/demo.c.obj
 
@@ -896,6 +962,60 @@ fileCode/fileMul.c.s:
 	$(MAKE) -f CMakeFiles\fileMul.dir\build.make CMakeFiles/fileMul.dir/fileCode/fileMul.c.s
 .PHONY : fileCode/fileMul.c.s
 
+fileCode/filePoffset.obj: fileCode/filePoffset.c.obj
+
+.PHONY : fileCode/filePoffset.obj
+
+# target to build an object file
+fileCode/filePoffset.c.obj:
+	$(MAKE) -f CMakeFiles\filePoffset.dir\build.make CMakeFiles/filePoffset.dir/fileCode/filePoffset.c.obj
+.PHONY : fileCode/filePoffset.c.obj
+
+fileCode/filePoffset.i: fileCode/filePoffset.c.i
+
+.PHONY : fileCode/filePoffset.i
+
+# target to preprocess a source file
+fileCode/filePoffset.c.i:
+	$(MAKE) -f CMakeFiles\filePoffset.dir\build.make CMakeFiles/filePoffset.dir/fileCode/filePoffset.c.i
+.PHONY : fileCode/filePoffset.c.i
+
+fileCode/filePoffset.s: fileCode/filePoffset.c.s
+
+.PHONY : fileCode/filePoffset.s
+
+# target to generate assembly for a file
+fileCode/filePoffset.c.s:
+	$(MAKE) -f CMakeFiles\filePoffset.dir\build.make CMakeFiles/filePoffset.dir/fileCode/filePoffset.c.s
+.PHONY : fileCode/filePoffset.c.s
+
+fileCode/fileSort.obj: fileCode/fileSort.c.obj
+
+.PHONY : fileCode/fileSort.obj
+
+# target to build an object file
+fileCode/fileSort.c.obj:
+	$(MAKE) -f CMakeFiles\fileSort.dir\build.make CMakeFiles/fileSort.dir/fileCode/fileSort.c.obj
+.PHONY : fileCode/fileSort.c.obj
+
+fileCode/fileSort.i: fileCode/fileSort.c.i
+
+.PHONY : fileCode/fileSort.i
+
+# target to preprocess a source file
+fileCode/fileSort.c.i:
+	$(MAKE) -f CMakeFiles\fileSort.dir\build.make CMakeFiles/fileSort.dir/fileCode/fileSort.c.i
+.PHONY : fileCode/fileSort.c.i
+
+fileCode/fileSort.s: fileCode/fileSort.c.s
+
+.PHONY : fileCode/fileSort.s
+
+# target to generate assembly for a file
+fileCode/fileSort.c.s:
+	$(MAKE) -f CMakeFiles\fileSort.dir\build.make CMakeFiles/fileSort.dir/fileCode/fileSort.c.s
+.PHONY : fileCode/fileSort.c.s
+
 fileCode/filter.obj: fileCode/filter.c.obj
 
 .PHONY : fileCode/filter.obj
@@ -938,6 +1058,7 @@ help:
 	@echo ... file
 	@echo ... partIV
 	@echo ... partVI
+	@echo ... bitOper
 	@echo ... partVII
 	@echo ... partIX
 	@echo ... List
@@ -948,6 +1069,8 @@ help:
 	@echo ... AEadd
 	@echo ... fileBin
 	@echo ... fileList
+	@echo ... filePoffset
+	@echo ... fileSort
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Code/List.obj
@@ -962,6 +1085,9 @@ help:
 	@echo ... Code/SuShu.obj
 	@echo ... Code/SuShu.i
 	@echo ... Code/SuShu.s
+	@echo ... Code/bitOper.obj
+	@echo ... Code/bitOper.i
+	@echo ... Code/bitOper.s
 	@echo ... Code/demo.obj
 	@echo ... Code/demo.i
 	@echo ... Code/demo.s
@@ -1010,6 +1136,12 @@ help:
 	@echo ... fileCode/fileMul.obj
 	@echo ... fileCode/fileMul.i
 	@echo ... fileCode/fileMul.s
+	@echo ... fileCode/filePoffset.obj
+	@echo ... fileCode/filePoffset.i
+	@echo ... fileCode/filePoffset.s
+	@echo ... fileCode/fileSort.obj
+	@echo ... fileCode/fileSort.i
+	@echo ... fileCode/fileSort.s
 	@echo ... fileCode/filter.obj
 	@echo ... fileCode/filter.i
 	@echo ... fileCode/filter.s

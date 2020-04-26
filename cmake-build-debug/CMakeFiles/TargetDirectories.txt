@@ -7,6 +7,7 @@ D:/CppCode/cmake-build-debug/CMakeFiles/partIII.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/file.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/partIV.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/partVI.dir
+D:/CppCode/cmake-build-debug/CMakeFiles/bitOper.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/partVII.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/partIX.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/List.dir
@@ -17,5 +18,7 @@ D:/CppCode/cmake-build-debug/CMakeFiles/filter.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/AEadd.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/fileBin.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/fileList.dir
+D:/CppCode/cmake-build-debug/CMakeFiles/filePoffset.dir
+D:/CppCode/cmake-build-debug/CMakeFiles/fileSort.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/CppCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
